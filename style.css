@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-color: #4158D0;
+}
+
+.enDisDiv {
+    width: 100%;
+    height: 100%;
+}
+
+.canSayisi {
+    position:absolute;
+    top:0;
+    right:0;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.content{
+
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.kutular {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: none;
+
+}
+
+.inputlar {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    border: none;
+    pointer-events:none;
+
+}
+
+.butonlar {
+    padding-top: 40px;
+}
+
+.buton {
+    width: 200px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 15px;
+    background: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.buton:hover, .buton:focus {
+    background-color: #fff;
+    color: #4158D0;;
+}
+.buton i {
+    margin-right: 10px;
+}
+
