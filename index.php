@@ -8,15 +8,7 @@
     <title>Bet Emre</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b702e9b638.js" crossorigin="anonymous"></script>
-    <script>
-        var backgroundButton = document.querySelector("#backgroundColor");
-
-        backgroundButton.addEventListener("click",degistir());
-
-        function degistir(){
-            document.body.style.background = black;
-        }
-    </script>
+ 
 </head>
 <body>
 
